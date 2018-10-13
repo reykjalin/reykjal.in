@@ -1,0 +1,7 @@
+baseURL = "http://hugo.reykjal.in/"
+languageCode = "en-us"
+title = "reykjal.in"
+theme = "elephants"
+
+[params]
+    sitename = "reykjal.in"
