@@ -1,3 +1,3 @@
 [submodule "themes/r-elephants"]
 	path = themes/r-elephants
-	url = git@github.com:reykjalin/r-elephants.git
+	url = https://github.com/reykjalin/r-elephants.git
