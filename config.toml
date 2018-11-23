@@ -1,4 +1,4 @@
-baseURL = "http://hugo.reykjal.in/"
+baseURL = "http://www.reykjal.in/"
 languageCode = "en-us"
 title = "reykjal.in"
 theme = "r-elephants"
