@@ -7,6 +7,12 @@ layout: empty
 * {
     font-family: 'Fira Sans', sans-serif;
 }
+
+@media print {
+    .page-break-before {
+        page-break-before: always;
+    }
+}
 </style>
 
 <html>
@@ -82,7 +88,7 @@ layout: empty
 
             <dd class="m-8"></dd>
             
-            <h2 class="mb-4">Education</h2>
+            <h2 class="mb-4 page-break-before">Education</h2>
             <div class="flex flex-col w-full border-r border-l border-grey-dark rounded-lg">
                 <div class="flex items-stretch">
                     <dt class="border-r-2 border-grey-dark p-4 w-1/3 text-right">
@@ -190,7 +196,7 @@ layout: empty
             
             <dd class="m-8"></dd>
            
-            <dt>References</dt>
+            <dt class="page-break-before">References</dt>
             <dd>Available on request</dd>
             
             <dd class=""></dd>
